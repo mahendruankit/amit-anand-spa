@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import { HashRouter } from 'react-router-dom';
+import stringResource from './resources/strings';
+import CookieConsent from 'react-cookie-consent';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import Contact from './components/Contact/Contact';
@@ -22,6 +24,25 @@ function App() {
         <Contact ref={contactRef} />
       </HashRouter>
       <Footer />
+      <CookieConsent
+        location='bottom'
+        buttonText={stringResource.portfolio.gdprbutton}
+        cookieName='gdprCookie'
+        style={{
+          background: '#ffe5b4',
+          fontSize: '1em',
+          color: '#000000',
+        }}
+        buttonStyle={{
+          color: '#000000',
+          fontSize: '1em',
+          background: '#ffc107',
+          padding: '0px 5px 0px 5px',
+        }}
+        expires={150}
+      >
+        {stringResource.portfolio.gdpr}
+      </CookieConsent>
     </div>
   );
 }
