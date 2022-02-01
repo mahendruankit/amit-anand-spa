@@ -16,7 +16,7 @@ const About = forwardRef((props, ref) => {
         </div>
         <div className='aboutSection__introduction'>
           <div className='spacer'></div>
-          <h2> Hello and welcome to my website. </h2>
+          <h2> Hello and welcome to my website</h2>
           <div className='spacer-large'></div>
           <p>
             Thank you so much for taking the time to visit this space to learn
