@@ -16,9 +16,12 @@ function App() {
   const portfolioRef = useRef(null);
 
   return (
-    <div ref={homeRef} className='App'>
+    <div ref={homeRef} className='app'>
       <HashRouter>
         <Header refs={{ aboutRef, portfolioRef, contactRef, homeRef }} />
+        <div className='logo__container'>
+          <div className='logo'></div>
+        </div>
         <About ref={aboutRef} />
         <Portfolio ref={portfolioRef} />
         <Contact ref={contactRef} />

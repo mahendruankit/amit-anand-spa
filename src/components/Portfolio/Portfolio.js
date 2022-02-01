@@ -34,6 +34,17 @@ const Portfolio = forwardRef((props, ref) => {
           ></iframe>
         </div>
       </div>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+        sagittis tristique arcu ac faucibus. Cras mattis, orci ac consequat
+        tempus, nisi est porttitor purus, quis bibendum dolor velit at nisi.
+        Aliquam vitae ipsum sed risus lobortis tincidunt. Aliquam erat volutpat.
+        Fusce volutpat est libero, non commodo nisl pharetra eu. Pellentesque
+        vestibulum, orci ut cursus aliquet, sapien felis efficitur neque, id
+        porttitor orci erat nec risus. Pellentesque neque magna, facilisis in
+        malesuada nec, gravida ac sem. Nunc vitae purus vitae est tristique
+        facilisis sit amet quis sapien.
+      </p>
     </section>
   );
 });
