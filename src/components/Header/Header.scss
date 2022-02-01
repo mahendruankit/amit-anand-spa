@@ -1,0 +1,11 @@
+@import '../../variables.scss';
+
+.header {
+  background-color: $primary-color;
+  a {
+    display: inline-block;
+    margin: 1em 0;
+    padding: 0 2em;
+    text-decoration: none;
+  }
+}
