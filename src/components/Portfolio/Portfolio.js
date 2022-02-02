@@ -1,4 +1,5 @@
 import React, { forwardRef } from 'react';
+import Social from '../Social/Social';
 import stringResource from '../../resources/strings';
 import imageResource from '../../resources/images';
 import './Portfolio.scss';
@@ -7,6 +8,7 @@ const Portfolio = forwardRef((props, ref) => {
   return (
     <section className='portfolioSection' ref={ref}>
       <h1>Portfolio</h1>
+      <Social />
       <div className='portfolioSection__spotify'>
         <a
           className='portfolioSection__spotify__image'
